@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-overlay {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(var(--n) / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.5;
+}
+body {
+  font-family: "Ephesis", cursive;
+}
+.menu li a:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+  text-decoration: underline !important;
+}
+
+a.active {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: #bc587d !important;
+  font-weight: 800;
+}
